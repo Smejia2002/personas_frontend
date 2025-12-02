@@ -23,9 +23,13 @@ const Layout = ({ children }) => {
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <TeamOutlined style={{ fontSize: '28px', color: '#1890ff' }} />
-          <Title level={3} style={{ margin: 0, color: '#1890ff' }}>
-            Gestión de Personas
+          <img 
+            src="https://img.icons8.com/?size=100&id=dJOp2OE75Wj7&format=png&color=000000" 
+            alt="PeopleHub" 
+            style={{ width: '32px', height: '32px' }}
+          />
+          <Title level={3} style={{ margin: 0, color: '#1b2b3aff' }}>
+            PeopleHub
           </Title>
         </div>
         
